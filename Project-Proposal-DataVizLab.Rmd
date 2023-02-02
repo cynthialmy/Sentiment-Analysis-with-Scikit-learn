@@ -1,5 +1,5 @@
 ---
-title: "Project-Proposol-DataVizLab"
+title: "Project-Proposal-DataVizLab"
 author: "Mengyuan Li"
 date: "`r Sys.Date()`"
 output: pdf_document
