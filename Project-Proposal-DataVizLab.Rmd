@@ -19,6 +19,9 @@ scikit-learn[https://en.wikipedia.org/wiki/Scikit-learn] is a free software mach
 
 The City of Boston regularly inspects every restaurant to monitor and improve food safety and public health. As in most cities, health inspections are generally random, which can increase time spent on spot checks at clean restaurants that have been following the rules closely — and missed opportunities to improve health and hygiene at places with more pressing food safety issues.
 
+## Analysis Targets
+Using the city records of health violations as the predictive outcome of this analysis, which can be thought of as "minor", "major", and "severe" violations.
+
 ## Sample of dataset
 All data set can be accessed and downloaded from Yelp Open Data Set [https://www.yelp.com/dataset/download].
 
@@ -103,8 +106,6 @@ All data set can be accessed and downloaded from Yelp Open Data Set [https://www
 }
 ```
 
-## Analysis Targets
-Using the city records of health violations as the predictive outcome of this analysis, which can be thought of as "minor", "major", and "severe" violations. 
 ## Tools
 The approach of this project will be based on the implementation of random forests in Python with ML packages including:
 - pandas
@@ -113,10 +114,8 @@ The approach of this project will be based on the implementation of random fores
 - scikit-learn
 
 # Approach Overview
-## Importing the Required Libraries
-The first step as always is to import the required libraries:
-
-## Importing the Dataset
+## Importing the Required Libraries and the Dataset
+The first step as always is to import the required libraries and the dataset
 
 ## Data Analysis
 We will start exploring the dataset a bit to see if we can find any trends. 
