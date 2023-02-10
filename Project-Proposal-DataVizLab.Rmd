@@ -11,18 +11,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Sentiment analysis and Machine Learning with Scikit-learn
 
-This project is based on the Yelp competition[https://www.drivendata.org/competitions/5/keeping-it-fresh-predict-restaurant-inspections/page/17/]. Sentiment analysis refers to analyzing an opinion or feelings about something using data like text or images, regarding almost anything. Sentiment analysis helps companies in their decision-making process.
+This project is based on the Yelp competition [https://www.drivendata.org/competitions/5/keeping-it-fresh-predict-restaurant-inspections/page/17/], which was based on restaurants in the City of Boston. This project will try to apply similar analysis to the City of Atlanta. Sentiment analysis refers to analyzing an opinion or feelings about something using data like text or images, regarding almost anything. Sentiment analysis helps companies in their decision-making process.
 
-scikit-learn[https://scikit-learn.org/stable/] is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. 
+scikit-learn [https://scikit-learn.org/stable/] is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support-vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. 
 
 ## Problem Definition
 
-The City of Boston regularly inspects every restaurant to monitor and improve food safety and public health. As in most cities, health inspections are generally random, which can increase time spent on spot checks at clean restaurants that have been following the rules closely — and missed opportunities to improve health and hygiene at places with more pressing food safety issues.
+Fulton County [https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/board-of-health/environmental-health/restaurant-inspection] regularly inspects every restaurant to monitor and improve food safety and public health. As in most cities, health inspections are generally random, which can increase time spent on spot checks at clean restaurants that have been following the rules closely — and missed opportunities to improve health and hygiene at places with more pressing food safety issues.
 
 ## Analysis Targets
-Using the city records of health violations as the predictive outcome of this analysis, which can be thought of as "minor", "major", and "severe" violations.
+
+Using the Fulton County public health inspection on the scores and grades for food services, which can be thought of as a score out of 100. [http://ga.healthinspections.us/georgia/search.cfm?county=Fulton]
 
 ## Sample of dataset
+
 All data set can be accessed and downloaded from Yelp Open Data Set [https://www.yelp.com/dataset/download].
 
 ```{json}
